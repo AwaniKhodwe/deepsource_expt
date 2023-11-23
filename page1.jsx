@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const BugComponent = () => {
   // Bug 1: Missing import for useState
   // Bug 2: Variable misspelled as "countt"
-  const [countt, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   const handleClick = () => {
     // Bug 3: Attempting to mutate state directly
